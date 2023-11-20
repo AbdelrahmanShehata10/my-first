@@ -3,3 +3,7 @@ to remove the branch locally we use git branch -D name of branch for hard
 2-
 To remove a remote branch in Git, you can use the git push origin --delete branch_name
 3-to list tags we use git tags
+4-for local:git tag -d tag_name
+for remote:git push origin --delete tag_name
+
+
